@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "调试 TS 源码",
+      "runtimeExecutable": "ts-node",
+      "args": ["${workspaceFolder}/backend/src/index.ts"],
+      "cwd": "${workspaceFolder}/backend",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
